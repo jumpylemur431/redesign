@@ -1,0 +1,239 @@
+@import url(//fonts.googleapis.com/css?family=Lato:400,700);
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #005d24;
+}
+
+h1 {
+    font-size: 5vw;
+    color: white; 
+}
+h4 {
+    font-size: 1.5vw;
+    color: white; 
+}
+
+
+/******** NAV BAR *************/
+.ul_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFEAA7;
+  }
+  
+  .li_nav {
+    float: left;
+    width: 33.33%;
+
+  }
+  
+  .li_nav a {
+    display: block;
+    color: #444444;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .li_nav a:hover {
+    background-color: #FFC300;
+  }
+
+  /********* part 1 *************/
+
+h2 {
+    font-size: 3.5vw;
+    color: #005d24; 
+}
+
+.part_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part_1_sections {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.pick_website, .finding_problems , .accessibility {
+    border: solid .25vw #FFC300;
+    width: 33.33%;
+    padding: 2%;
+    border-radius: 1vw;
+    margin-left: .5vw;
+    margin-right: .5vw;    
+}
+
+h3 {
+    font-size: 2vw;
+    color: #005d24; 
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.3vw;
+    color: #444444;
+    line-height: 1.5;
+}
+
+.bghs_site {
+    width: 100%;
+    border: solid 1px #444444;
+}
+
+.waive_score {
+    width: 95%;
+    border: solid 1px #444444;
+}
+
+h5 {
+    font-size: 1.3vw;
+    color: #005d24; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    font-size: 1.21vw;
+    color: #444444;
+}
+
+/******** part 2 **************/
+.part_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part_2_sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lowfi, .visual_design, .hifi {
+    text-align: center;
+}
+
+.lowfi_sections, .vd_section, .hifi_sections {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #005d24;
+    border-radius: 1vw;
+    margin-bottom: 1vw;
+}
+
+.lowfi_desktop {
+    width: 50%;
+}
+
+.lowfi_phone {
+    width: 40%;
+}
+
+.lowfi_tablet{
+    width: 30%;
+}
+
+.hifi_tablet{
+    width: 25%;
+    border: solid 0.5vw #444444;
+}
+.hifi_phone {
+    width: 20%;
+    border: solid 0.5vw #444444;
+}
+
+.hifi_phone_div, .hifi_tablet_div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hifi_desktop {
+    border: solid 0.5vw #444444;
+    width: 50%;
+}
+
+.captions {
+    font-size: 1.1vw;
+    color: white;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.details {
+    font-size: 1.2vw;
+    color: #005d24;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/****** part 3 **********/
+
+.button {
+    background-color: #005d24; /* Green */
+    border: none;
+    width: 30%;
+    height: 40%;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 1.5vw;
+  }
+  
+  .button1 {
+    background-color: #c5d7cc; 
+    color: #444444; 
+    border: 2px solid #005d24;
+    border-radius: 1vw;
+  }
+  
+  .button1:hover {
+    background-color: #005d24;
+    color: white;
+  }
+
+  .part_3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #005d24;
+}

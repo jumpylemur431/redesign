@@ -1,0 +1,190 @@
+<!doctype html>
+<head>
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/redesign_logo.png">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="header">
+        <h1> Responsive Redesign</h1>
+    </div>
+    <div class="nav_bar">
+        <ul class="ul_nav">
+            <li class="li_nav"><a href="#part_1">Part 1</a></li>
+            <li class="li_nav"><a href="#part_2">Part 2</a></li>
+            <li class="li_nav"><a href="#part_3">Part 3</a></li>
+        </ul>
+    </div>
+
+    <div class="part_1" id="part_1">
+        <h2>Part 1: Identifying Usability Problems</h2>
+        <div class="part_1_sections">
+            <div class="pick_website">
+                <h3>Picking a Web page</h3>
+                <p>For this assignment, I chose my <b>high school website</b>. I decided to take this website since I have had many 
+                    issues with its most recent redesign which was done 5 years ago. Specifically, the page I find 
+                    has a bad workflow is the <i>Course Offerings</i> page. The website could be updated with a different 
+                    syntax and more focus on UI/UX friendliness. Below is a screen capture of the webpage. Select the image to view the current page.</p>
+
+                    <a  href="https://www.bghs.org/academics/course-offerings/" target="_blank"><img class="bghs_site" src="img/bghs.org.png"></a>
+            </div>
+            <div class="finding_problems">
+                <h3>Finding Problems</h3>
+                <h5>Usability</h5>
+                <p> 
+                    <ul>
+                        <li>Webpage able to load all elements quickly</li>
+                        <li>Separated courses by department through a smooth dropdown that opens and closes</li>
+                        <li>Long scrolling actions if a dropdown is opened and not closed</li>
+                        <li>Course details generally very dense and hard to read at once in a row</li> 
+                        <li>Text and headers are not equaivalent across page</li>
+                        <li>Font size consist across all devices (phone and table) and difficult to navigate</li>
+                        <li>Overall: okay usability, can be improved</li>
+                    </ul>
+                </p>
+                <h5>Learnability</h5>
+                <p>
+                    <ul>
+                        <li>User can find course if they know department, but cannot be assumed</li>
+                        <li>User cannot find specific course easily since need to scroll down</li>
+                        <li>Scrolling can take around ~20 seconds in longer department sections</li>
+                        <li>Scrolling cannot be learned easily, need to guess the exact location on page</li>
+                        <li>Overall: average learnability, scrolling must be improved</li>
+                    </ul>
+                </p>
+                <h5>Memorability</h5>
+                <p>
+                    <ul>
+                        <li>User can remember page once they leave with lack of complex functionality</li> 
+                        <li>Distinct school colors on website and student/teacher photos</li> 
+                        <li>No guarentee for quicker search on next webpage arrival due to long scrolling</li>
+                        <li>Overall: good memorability</li> 
+                    </ul>
+                </p>
+                <h5>Conceptual Model</h5>
+                <p>
+                    <ul>
+                        <li>Users are prospective parents or students looking through course offerings</li> 
+                        <li>Database to look up courses at the high school</li> 
+                        <li>Sectioned into departments like a dictionary section</li>
+                        <li>Browsing similar to entreies in a magazine, except scrolling</li>
+                        <li>Suggests the user should scrolling and view courses, no need to come with a course in mind</li>
+                        <li>Overall: makes sense to user, but not necessarily easiest tool to use</li> 
+                    </ul>
+                </p>
+
+            </div>
+            <div class="accessibility">
+                <h3>Accessibility</h3>
+                <p>In my findings, there were <b>14 errors, 12 contrast errors, 125 alerts, and 4 features</b>. For the most part,
+                     I agree with the errors. Most of them include missing alternative text or having broken links. The larger 
+                     problem is the contrast errors with some of the font colors on the website which should definitely be changed.
+                      There are some alerts which I think are not as much of an issue such as a missing heading where there is 
+                      instead a picture. Overall, I do mostly agree with these problems and it provides good insights into what 
+                      I must fix for this website redesign. </p>
+                <img class="waive_score" src="img/WAIVE.png">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="part_2" id="part_2">
+        <h2>Part 2: Visual Redesign</h2>
+            <div class="part_2_section">
+                <div class="lowfi">
+                <h3>LowFi Designs</h3>
+                <p class="details">The following are the LoFi designs for the desktop, tablet, and phone. Designs were made on Balsamiq. 
+                    There are 1 to 2 design to show the entire page mock-up and any additional elements that include JavaScript. 
+                    Annotations can be found on the yellow sticky notes on each mock-up. </p>
+                    <div class="lowfi_sections">
+                        <h4>LowFi Design on Desktop</h4>
+                        <img class="lowfi_desktop" src="img/Lowfi_Desktop.png">
+                        <br>
+                    </div>
+                    <div class="lowfi_sections">
+                        <h4>LowFi Design on Tablet</h4>
+                        <img class="lowfi_tablet" src="img/Lowfi_Tablet.png">
+                        <br>
+                    </div>
+                    <div class="lowfi_sections">
+                        <h4>LowFi Design on Phone</h4>
+                        <img class="lowfi_phone" src="img/Lowfi_Phone.png">
+                        <br>
+                    </div>
+                </div>
+                <div class="visual_design">
+                <h3>Visual Design Guide</h3>
+                    <div class="vd_section">
+                        <br>
+                        <img class="lowfi_desktop" src="img/Visual_Design_Style_Guide.png">
+                        <p class="captions">For the visual design guide, I made a few stylistic decisions that would
+                        best suit the new website. <br>I stuck with the same color palette as the original school logo: green
+                        and gold. <br>I used the official colors along with a muted version of both. <br>To go along with the main colors, 
+                        I used a darker and lighter gray for text. </p>
+                    </div>
+                </div>
+                <div class="hifi">
+                <h3>HiFi Designs</h3>
+                <p class="details">The following are the HiFi designs for the desktop, tablet, and phone. Designs were made on Figma. 
+                    There are 3 to 4 design to show the entire page mock-up and any additional elements that include JavaScript. 
+                    Annotations can be found on the yellow sticky notes on each mock-up. </p>
+                    <div class="hifi_sections">
+                        <h4>HiFi Design on Desktop</h4>
+                        <img class="hifi_desktop" src="img/MacBook_1.png">
+                        <br>
+                        <img class="hifi_desktop" src="img/MacBook_2.png">
+                        <br>
+                        <img class="hifi_desktop" src="img/MacBook_3.png">
+                        <br>
+                    </div>
+                    <div class="hifi_sections">
+                        <h4>HiFi Design on Tablet</h4>
+                        <div class="hifi_tablet_div">
+                            <img class="hifi_tablet" src="img/iPad_1.png">
+                            <br>
+                            <img class="hifi_tablet" src="img/iPad_2.png">
+                            <br>
+                            <img class="hifi_tablet" src="img/iPad_3.png">
+                        </div>
+                        <br>
+                    </div>
+                    <div class="hifi_sections">
+                        <h4>HiFi Design on Phone</h4>
+                            <div class="hifi_phone_div">
+                            <img class="hifi_phone" src="img/iPhone_1.png">
+                            <br>
+                            <img class="hifi_phone" src="img/iPhone_2.png">
+                            <br>
+                            <img class="hifi_phone" src="img/iPhone_3.png">
+                            <br>
+                            <img class="hifi_phone" src="img/iPhone_4.png">
+                        </div>
+                        <br>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+
+    <div class="part_3" id="part_3">
+        <div class="responsive_redesign">
+            <h2>Part 3: Responsive Redesign</h2>
+            <p>Finally, we reach the final product: the newly redesigned Bishop Guertin High School Course Offerings website. 
+                Enjoy!
+            </p>
+            <br>
+            <a href="https://jumpylemur431.github.io/bghs-course-offerings/" target="_blank" class="button button1">Redesigned Webpage</a>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div class="footer">
+        <br>
+        <p class="captions">Thanks for checking out the webpage! This was developed in CSS and HTML.</p>
+        <br>
+    </div>
+
+</body>
+
